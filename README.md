@@ -1,4 +1,5 @@
-<img src="" width="400">
+<img src="https://uploads.scratch.mit.edu/get_image/project/891089225_170x100.png" width="400">
+meet the mascot
 # Unofficial archive of Scratch projects
 
 Due to the Scratch Team planning to remove access to unshared projects (see [here](https://github.com/LLK/scratch-www/pull/6773)), I had the idea to archive as many old projects as possible with the purpose of preserving Scratch's community history.  An easy-to-use frontend to search projects can be found [here](https://sa.micahlindley.com).
