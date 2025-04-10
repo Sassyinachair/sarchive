@@ -7,8 +7,8 @@ const END = 80000;
 let i = START;
 var download = function (method) {
   if (!method) method = "getsb3";
-  var file = fs.createWriteStream(`projects/${i}.sb3`);
-  console.log(`Downloading ${i}.sb3 [${method}]`);
+  var file = fs.createWriteStream(`projects/891089225.sb3`);
+  console.log(`Downloading 891089225.sb3 [${method}]`);
   if (method == "getsb3") {
     http.get(API + "/" + i, function (response) {
       if (response.statusCode > 500) {
@@ -40,8 +40,8 @@ var download = function (method) {
       } else if (response.statusCode == 404) {
         console.log("Project not found.");
         file.close();
-        fs.unlink(`projects/${i}.sb3`, () => {
-          fs.writeFile(`projects/${i}-notfound.sb3`, "", () => {
+        fs.unlink(`projects/891089225.sb3`, () => {
+          fs.writeFile(`projects/891089225-notfound.sb3`, "", () => {
             i++;
             if (i < END) {
               setTimeout(download, 150);
